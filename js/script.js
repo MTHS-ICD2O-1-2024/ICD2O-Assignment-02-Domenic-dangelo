@@ -16,7 +16,7 @@ function calculateVolumeOfRightTriangularPrism() {
   const lengthOfRigthTriangularPrism = parseFloat(document.getElementById("length-of-right-triangular-prism").value)
 
   // process
-  const volumeOfRigthTriangularPrism = baseOfRigthTriangularPrism * heightOfRigthTriangularPrism * lengthOfRigthTriangularPrism / 2
+  const volumeOfRigthTriangularPrism = (baseOfRigthTriangularPrism * heightOfRigthTriangularPrism /2) * lengthOfRigthTriangularPrism
 
   // output
   document.getElementById("answer").innerHTML = "Volume is: " + volumeOfRigthTriangularPrism + " cm³"
